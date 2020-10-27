@@ -54,10 +54,12 @@ nav a:hover {
 }
 
 .product1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+  /*
   padding: 10px;
   max-width: 100%;
-  justify-content: center;
-
-  height: auto;
-  align-items: center;
+  justify-content: center;*/
 }
