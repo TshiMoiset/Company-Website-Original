@@ -42,3 +42,22 @@ nav a {
 nav a:hover {
   color: goldenrod;
 }
+
+/*Produkter i Index.html*/
+
+.product1 {
+  padding: 2em;
+
+  text-decoration: underline;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+
+.product1 img {
+  padding: 10px;
+  max-width: 100%;
+  justify-content: center;
+
+  height: auto;
+  align-items: center;
+}
