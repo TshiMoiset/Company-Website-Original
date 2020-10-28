@@ -73,7 +73,7 @@ nav a:hover {
   border-radius: 15px;
 }
 
-/*
 hr.solid {
   border-top: solid 1px black;
-}*/
+  margin-top: 12px;
+}
