@@ -73,7 +73,10 @@ nav a:hover {
   text-decoration: none;
 }
 
-/*
+.btn a:hover {
+  background-color: #e5bc7e;
+}
+
 hr.solid {
   border-top: solid 1px black;
-}   */
+}
