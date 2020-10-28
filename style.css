@@ -21,13 +21,14 @@
   display: block;
 }
 
-.logo {
+.logomenu {
   padding: 10px;
   display: flex;
 
   justify-content: space-evenly;
   flex-wrap: wrap;
 
+  font-family: "Julius Sans One", sans-serif;
   background-color: black;
   border-top: solid 1px wheat;
 }
@@ -48,12 +49,13 @@ nav a:hover {
 .product1 {
   padding: 2em;
 
-  text-decoration: underline;
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
 }
 
 .product1 img {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
   height: auto;
   display: block;
@@ -62,4 +64,8 @@ nav a:hover {
   padding: 10px;
   max-width: 100%;
   justify-content: center;*/
+}
+
+hr.solid {
+  border-top: solid 1px black;
 }
