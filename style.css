@@ -65,18 +65,7 @@ nav a:hover {
   justify-content: space-evenly;
 }
 
-.btn {
-  padding: 5px;
-  border-radius: 20px;
-  border: solid 2px black;
-  background-color: black;
-  text-decoration: none;
-}
-
-.btn a:hover {
-  background-color: #e5bc7e;
-}
-
+/*
 hr.solid {
   border-top: solid 1px black;
-}
+}*/
