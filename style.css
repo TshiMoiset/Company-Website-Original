@@ -36,14 +36,13 @@
 nav a {
   text-decoration: none;
   color: #e5bc7e;
-  border-radius: 8px;
 }
 
 nav a:hover {
   color: goldenrod;
 }
 
-/*Produkter i Index.html*/
+/*Produkt 1 Index.html*/
 
 .product1 {
   padding: 2em;
@@ -56,14 +55,22 @@ nav a:hover {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-
-  /*
-  padding: 10px;
-  max-width: 100%;
-  justify-content: center;*/
 }
 
-.product1Readmore {
+.product1btn {
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+
+  text-decoration: none;
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 20px;
+  border: solid 2px black;
+  background-color: black;
+  text-decoration: none;
 }
 
 /*
