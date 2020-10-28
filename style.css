@@ -57,12 +57,20 @@ nav a:hover {
   max-width: 100%;
 }
 
-.product1btn {
+.product1Readmore {
   text-align: center;
-  font-family: "Julius Sans One", sans-serif;
 
-  text-decoration: none;
-  justify-content: space-evenly;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.product1Readmore a {
+  color: #e5bc7e;
+}
+
+.btn {
+  background-color: black;
+  border: solid 5px black;
+  border-radius: 15px;
 }
 
 /*
