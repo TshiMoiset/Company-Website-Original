@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+h1 {
+  padding-top: 20px;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+
 .logoimage {
   display: flex;
 
@@ -42,7 +48,7 @@ nav a:hover {
   color: goldenrod;
 }
 
-/*Produkt 1 Index.html*/
+/*Produkt Index.html*/
 
 .product {
   padding: 2em;
@@ -59,7 +65,6 @@ nav a:hover {
 
 .product1Readmore {
   text-align: center;
-
   font-family: "Julius Sans One", sans-serif;
 }
 
@@ -76,4 +81,15 @@ nav a:hover {
 hr.solid {
   border-top: solid 1px black;
   margin-top: 12px;
+}
+
+.VisioScreenV1ReadMore {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 1em;
+}
+
+.VisioScreenV1ReadMore > div {
+  background-color: grey;
+  padding: 1em;
 }
