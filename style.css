@@ -85,17 +85,6 @@ hr.solid {
 
 /* Visio Screen V1 Läs Mer */
 
-.VisioScreenV1ReadMore {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-column-gap: 1em;
-}
-
-.VisioScreenV1ReadMore > div {
-  background-color: grey;
-  padding: 1em;
-}
-
 /*
 .VisioScreenV1-Slide {
   margin-left: auto;
