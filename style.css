@@ -22,12 +22,14 @@ h1 {
 }
 
 .logoimage img {
+  /*Bild på Logga*/
   max-width: 100%;
   height: auto;
   display: block;
 }
 
 .logomenu {
+  /*Menyn*/
   padding: 10px;
   display: flex;
 
