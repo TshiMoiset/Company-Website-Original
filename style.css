@@ -84,30 +84,3 @@ hr.solid {
   border-top: solid 1px black;
   margin-top: 12px;
 }
-
-/* Visio Screen V1 Läs Mer */
-
-/*
-.VisioScreenV1-Slide {
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  text-align: center;
-}
-*/
-
-/*
-.VisioScreenV1-img {
-  position: relative;
-  transition: left 2s;
-  -webkit-transition: left 2s;                 /*Så att det fungerar på chrome*/
-/* -moz-transition: left 2s;                   /*Så att det fungerar i FireFox*/
-/*-o-transition: left 2s;                    /* Så att det fungerar i Opera*/
-/*}*/
-/*
-.slide-image {
-  float: left;
-  margin: 0px;
-  padding: 0px;
-}
-*/
