@@ -7,8 +7,38 @@
     <link rel="stylesheet" href="product.css">
     <link rel="shortcut icon" type="image/png" href="Images/Favicon2.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    /> 
 </head>
 <body>
+   
+<body>
+    <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div>
+    <nav class="sidebar">
+        <div class="text">Visio Entertainment</div>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fas fa-newspaper"></i>News</a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i>About</a></li>
+            <li><a href="#"><i class="fas fa-phone-alt"></i>Support</a></li>
+            <li><a href="#"><i class="fas fa-user-circle"></i>Member</a></li>
+        </ul>
+    </nav>
+    <script>
+        $('.btn').click(function(){
+            $(this).toggleClass("click");
+            $('.sidebar').toggleClass("show");
+        })
+    </script>
+
     <header class="VisioScreenV1">
         <h1>Visio Screen V1</h1>
         <hr class="solid">

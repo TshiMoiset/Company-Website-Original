@@ -1,4 +1,114 @@
+/*Sidmenyn*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.btn {
+  position: absolute;
+  top: 5em; /*15px innan*/
+  left: 45px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  background: black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: left 0.4s ease;
+}
+
+.btn.click {
+  left: 260px;
+}
+
+.btn span {
+  color: #e5bc7e;
+  font-size: 28px; /* Storleken på x eller bar*/
+  line-height: 45px; /* placeringen av x eller bar*/
+}
+
+.btn.click span:before {
+  content: "\f00d"; /*Bar Byter till X */
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100%; /*Hur mycket av höjden menyn ska ta */
+  left: -250px; /* Hur långt borta menyn är */
+  background: #1b1b1b;
+  transition: left 0.4s ease;
+}
+
+.sidebar.show {
+  left: 0px;
+}
+
+.sidebar .text {
+  color: #e5bc7e;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  background: black;
+  letter-spacing: 0px;
+}
+
+nav ul {
+  background: black;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li {
+  line-height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+nav ul li:last-child {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+nav ul li a {
+  position: relative;
+  color: #e5bc7e;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 40px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+
+nav ul li a:hover {
+  color: #e5bc7e;
+  background: #1b1b1b;
+  border-left-color: #e5bc7e;
+}
+
+nav ul ul {
+  position: static;
+  display: none;
+}
+
+nav ul ul li {
+  line-height: 42px;
+  border-bottom: none;
+}
+
+nav ul ul li a {
+  font-size: 17px;
+  color: #e6e6e6;
+  padding-left: 80px;
+}
+
 h1 {
+  padding: 15px;
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
 }
@@ -6,7 +116,6 @@ h1 {
 h4 {
   font-family: "Julius Sans One", sans-serif;
   color: #e5bc7e;
-  padding-left: 10px;
 }
 
 p {
@@ -31,6 +140,7 @@ th {
   border-bottom: solid 1px;
   text-align: left;
   padding: 8px;
+  margin: 0px;
 }
 
 /*Visio Screen V1*/
@@ -38,7 +148,7 @@ th {
 .VisioScreenV1ReadMore {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-auto-rows: minmax(1000px, auto);
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .VisioScreenV1ReadMore > div {
