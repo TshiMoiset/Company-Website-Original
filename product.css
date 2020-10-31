@@ -16,7 +16,6 @@
   width: 45px;
   text-align: center;
   background: black;
-  border-radius: 10px;
   cursor: pointer;
   transition: left 0.4s ease;
 }
@@ -140,19 +139,19 @@ th {
   border-bottom: solid 1px;
   text-align: left;
   padding: 8px;
-  margin: 0px;
 }
 
 /*Visio Screen V1*/
 
 .VisioScreenV1ReadMore {
   display: grid;
+  padding-top: 4.5em;
   grid-template-columns: 50% 50%;
   grid-auto-rows: minmax(100px, auto);
 }
 
 .VisioScreenV1ReadMore > div {
-  background-color: wheat;
+  background-color: #e5bc7e;
 }
 
 .VisioScreenV1ReadMore > div:nth-child(odd) {
