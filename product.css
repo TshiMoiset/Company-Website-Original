@@ -65,7 +65,7 @@ nav ul {
 }
 
 nav ul li {
-  line-height: 60px;
+  line-height: 90px; /*60px innan*/
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 nav ul li:last-child {
@@ -77,11 +77,11 @@ nav ul li a {
   color: #e5bc7e;
   text-decoration: none;
   font-size: 18px;
-  padding-left: 40px;
+  padding-left: 30%;
   font-weight: 500;
   display: block;
   width: 100%;
-  border-left: 3px solid transparent;
+  border-left: 3px solid transparent; /* Tjockleken på ljuset på sidan*/
 }
 
 nav ul li a:hover {
