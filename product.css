@@ -3,6 +3,27 @@ header {
   font-family: "Julius Sans One", sans-serif;
 }
 
-h2 {
+h4 {
+  text-decoration: underline;
   font-family: "Julius Sans One", sans-serif;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 10vw 1fr 1fr 10vw;
+  min-height: 100vh;
+}
+
+.main-grid div {
+  display: inline;
+}
+
+.left-grid {
+  grid-column: 2;
+  text-align: center;
+}
+
+.right-grid {
+  grid-column: 3;
+  text-align: center;
 }
