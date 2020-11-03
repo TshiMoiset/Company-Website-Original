@@ -1,6 +1,32 @@
+/* @keyframes hello {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+*/
+
 * {
   margin: 0;
   padding: 0;
+}
+
+main {
+  animation-name: hello;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
 h1 {
@@ -38,7 +64,7 @@ h1 {
 
   font-family: "Julius Sans One", sans-serif;
   background-color: black;
-  border-top: solid 1px wheat;
+  border-top: solid 1px white;
 }
 
 nav a {
