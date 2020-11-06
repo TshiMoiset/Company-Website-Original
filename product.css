@@ -3,12 +3,12 @@
 }
 
 header {
+  margin: auto;
   text-align: center;
+
   border-bottom: solid 2px black;
   width: 80vw;
-  margin: auto;
-}
-header {
+
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
 }
