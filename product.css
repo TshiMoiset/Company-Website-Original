@@ -1,25 +1,35 @@
+* {
+  padding: 0px;
+}
+
+header {
+  text-align: center;
+  border-bottom: solid 2px black;
+  width: 80vw;
+  margin: auto;
+}
 header {
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
 }
 
 h4 {
-  text-decoration: underline;
   font-family: "Julius Sans One", sans-serif;
+  border-bottom: solid 1px black;
 }
 
-.main-grid {
-  display: grid;
-  grid-template-columns: 10vw 1fr 1fr 10vw;
-  min-height: 100vh;
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1em;
 }
 
-.left-grid {
-  grid-column: 2;
-  text-align: center;
-}
-
-.right-grid {
-  grid-column: 3;
-  text-align: center;
+.menu-btn {
+  padding: 8px 16px;
+  margin: 16px;
+  background-color: blueviolet;
+  border-radius: 16px;
+  border: none;
+  color: white;
 }
