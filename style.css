@@ -16,6 +16,12 @@
   }
 }
 
+
+main {
+  animation-name: hello;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
 */
 
 * {
@@ -23,16 +29,14 @@
   padding: 0;
 }
 
-main {
-  animation-name: hello;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
-
 h1 {
   padding-top: 20px;
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
+}
+
+h2 {
+  margin-top: 12px;
 }
 
 .logoimage {
