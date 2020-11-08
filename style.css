@@ -112,3 +112,82 @@ hr.solid {
 }
 
 /*  Footer  */
+
+footer {
+  position: relative;
+  width: 100%;
+  background: black;
+}
+
+footer a {
+  display: block;
+  padding: 10px;
+  margin: 2px;
+  text-decoration: none;
+  font-family: "Julius Sans One", sans-serif;
+  color: #e5bc7e;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+footer h2 {
+  color: #e5bc7e;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.box .content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.box .content:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 15%;
+  background: #e5bc7e;
+  top: -10px;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .main-content .box {
+    margin: 5px 0;
+  }
+}
