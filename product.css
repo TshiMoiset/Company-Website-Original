@@ -32,7 +32,7 @@ p {
 
 .main-content {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-evenly;
   gap: 1em;
 }
