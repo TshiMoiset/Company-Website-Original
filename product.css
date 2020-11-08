@@ -108,6 +108,13 @@ footer h2 {
 }
 
 @media screen and (max-width: 900px) {
+  .main-content {
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
+  }
+
   .right-side img {
     margin: 10px;
     margin-left: auto;
