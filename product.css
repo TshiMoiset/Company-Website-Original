@@ -4,8 +4,22 @@
   box-sizing: border-box;
 }
 
+/*  Knappen med mer information   */
+
 #model {
   width: 100%;
+  display: none;
+}
+
+#screen {
+  display: none;
+}
+
+#features {
+  display: none;
+}
+
+#connections {
   display: none;
 }
 
