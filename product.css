@@ -23,6 +23,22 @@
   display: none;
 }
 
+#design {
+  display: none;
+}
+
+#weights {
+  display: none;
+}
+
+#package {
+  display: none;
+}
+
+#ean {
+  display: none;
+}
+
 .btn-frame {
   width: 300px;
 }

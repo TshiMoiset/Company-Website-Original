@@ -64,3 +64,71 @@ function dropModel() {
       connectionsText.style.display = "inline";
     }
   }
+
+  
+  function dropDesign() {
+    var end = document.getElementById("enddesign");
+    var designText = document.getElementById("design");
+    var btnText = document.getElementById("infoDesing");
+
+    if (end.style.display === "none") {
+        end.style.display = "inline";
+      btnText.innerHTML = "Design, Shape & Placing";
+      designText.style.display = "none";
+    } else {
+        end.style.display = "none";
+      btnText.innerHTML = "Design, Shape & Placing";
+      designText.style.display = "inline";
+    }
+  }
+
+  
+  function dropWeights() {
+    var end = document.getElementById("endweights");
+    var weightsText = document.getElementById("weights");
+    var btnText = document.getElementById("infoWeights");
+
+    if (end.style.display === "none") {
+        end.style.display = "inline";
+      btnText.innerHTML = "Weights & Measures";
+      weightsText.style.display = "none";
+    } else {
+        end.style.display = "none";
+      btnText.innerHTML = "Weights & Measures";
+      weightsText.style.display = "inline";
+    }
+  }
+
+  
+  function dropPackage() {
+    var end = document.getElementById("endpackage");
+    var packageText = document.getElementById("package");
+    var btnText = document.getElementById("infoPackage");
+
+    if (end.style.display === "none") {
+        end.style.display = "inline";
+      btnText.innerHTML = "Package Content";
+      packageText.style.display = "none";
+    } else {
+        end.style.display = "none";
+      btnText.innerHTML = "Package Content";
+      packageText.style.display = "inline";
+    }
+  }
+
+  
+  function dropEan() {
+    var end = document.getElementById("endean");
+    var eanText = document.getElementById("ean");
+    var btnText = document.getElementById("infoEan");
+
+    if (end.style.display === "none") {
+        end.style.display = "inline";
+      btnText.innerHTML = "EAN";
+      eanText.style.display = "none";
+    } else {
+        end.style.display = "none";
+      btnText.innerHTML = "EAN";
+      eanText.style.display = "inline";
+    }
+  }
