@@ -1,3 +1,5 @@
+  /*  Knapp för Modelbeskrivning  */
+
 function dropModel() {
     var end = document.getElementById("end");
     var modelText = document.getElementById("model");
@@ -14,6 +16,7 @@ function dropModel() {
     }
   }
 
+  /*  Knappp för Skärm/Display  */
   
   function dropScreen() {
     var end = document.getElementById("end");
@@ -31,7 +34,8 @@ function dropModel() {
     }
   }
 
-  
+  /* Knapp för funktioner och egenskaper  */
+
   function dropFeatures() {
     var end = document.getElementById("endfeatures");
     var featuresText = document.getElementById("features");
@@ -48,7 +52,8 @@ function dropModel() {
     }
   }
 
-  
+  /*  Knapp för anslutningar  */
+
   function dropConnections() {
     var end = document.getElementById("endconnections");
     var connectionsText = document.getElementById("connections");
@@ -65,6 +70,7 @@ function dropModel() {
     }
   }
 
+  /*  Knapp för design, form och placering  */
   
   function dropDesign() {
     var end = document.getElementById("enddesign");
@@ -82,6 +88,7 @@ function dropModel() {
     }
   }
 
+  /*  Knapp för mått & vikt */
   
   function dropWeights() {
     var end = document.getElementById("endweights");
@@ -99,6 +106,7 @@ function dropModel() {
     }
   }
 
+  /*   Knapp för förpacknings innehåll  */
   
   function dropPackage() {
     var end = document.getElementById("endpackage");
@@ -116,6 +124,7 @@ function dropModel() {
     }
   }
 
+  /*  Knapp för EAN */
   
   function dropEan() {
     var end = document.getElementById("endean");
