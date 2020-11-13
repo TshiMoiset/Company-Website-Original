@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+/*  Slide Menyn */
+
+.slide-menu {
+  display: block;
+}
+
 /*  Knappen med mer information   */
 
 #model {
@@ -43,6 +49,11 @@
   width: 300px;
 }
 
+.btn-frame * {
+  display: block;
+  width: 100%;
+}
+
 .btn button {
   margin: 10px;
   padding: 10px;
@@ -79,8 +90,11 @@ header {
 }
 
 h2 {
+  padding: 10px;
   margin-top: 19px;
   margin-bottom: 19px;
+  background: black;
+  color: #e5bc7e;
 }
 
 /* h4 {
@@ -175,6 +189,11 @@ footer h2 {
   width: 15%;
   background: #e5bc7e;
   top: -10px;
+}
+
+.copyright {
+  background: black;
+  color: #e5bc7e;
 }
 
 @media screen and (max-width: 900px) {
