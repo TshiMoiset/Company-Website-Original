@@ -4,12 +4,57 @@
   box-sizing: border-box;
 }
 
-/*  Slide Menyn */
+/*  Drop Menyn */
 
-/*  Knappen med mer information   */
+.dropbtn {
+  background-color: black;
+  color: #e5bc7e;
+  padding: 8px 16px;
+  margin: 16px;
+  /*  padding: 16px;  */
+  font-size: 16px;
+  border: none;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #e5bc7e;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+  background: #1a1a1a;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dropdown:hover .dropbtn {
+  color: goldenrod;
+}
+
+/*  Knappen för mer information   */
 
 #model {
-  width: 100%;
   display: none;
 }
 
