@@ -24,6 +24,9 @@ main {
 }
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -131,6 +134,7 @@ p {
   margin: 10px;
   padding: 5px;
   border: solid 1px;
+  font-family: "Syne", sans-serif;
 }
 
 .header h2 {
