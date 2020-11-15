@@ -115,6 +115,25 @@ hr.solid {
   margin-top: 12px;
 }
 
+/*   News.html  */
+
+.header header {
+  margin: auto;
+  text-align: center;
+
+  border-bottom: solid 2px black;
+  width: 80vw;
+
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.header h2 {
+  padding: 10px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  background: black;
+  color: #e5bc7e;
+}
 /*  Footer  */
 
 footer {
