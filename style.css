@@ -134,6 +134,62 @@ hr.solid {
   background: black;
   color: #e5bc7e;
 }
+
+.all-content {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: space-evenly;
+  /* margin-left: 10%; */
+  gap: 1em;
+}
+
+.left-content img {
+  margin-left: 9.5vw;
+}
+
+.right-content p {
+  max-width: 77%;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+p {
+  margin: 10px;
+  padding: 2px;
+  border: solid 1px;
+}
+
+.more-information {
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.more-information a {
+  margin: 5px;
+  padding: 5px;
+  background: black;
+  color: #e5bc7e;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.more-information a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+.menu-btn {
+  padding: 8px 16px;
+  margin: 16px;
+  background-color: blueviolet;
+  border-radius: 16px;
+  border: none;
+  color: white;
+}
+
 /*  Footer  */
 
 footer {
@@ -200,6 +256,26 @@ footer h2 {
 }
 
 @media screen and (max-width: 900px) {
+  /*  News.html*/
+
+  .left-content img {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .all-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .right-content p {
+    max-width: 100%;
+  }
+
+  /*  Footer */
   footer {
     position: relative;
     bottom: 0;
