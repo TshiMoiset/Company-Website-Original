@@ -158,9 +158,14 @@ h3 {
   gap: 1em;
 }
 
-.left-content img {
+.all-content {
   margin-left: 9.5vw;
+  margin-right: 9.5vw;
 }
+
+/* .left-content img {
+  margin-left: 9.5vw;
+} */
 
 .right-content {
   padding-top: 10em;
