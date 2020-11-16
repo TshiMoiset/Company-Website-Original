@@ -118,6 +118,14 @@ hr.solid {
   margin-top: 12px;
 }
 
+hr.solid-content {
+  margin-left: 9.5vw;
+  margin-right: 9.5vw;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-top: solid 1px black;
+}
+
 /*   News.html  */
 
 .header header {
@@ -172,6 +180,7 @@ h3 {
 }
 
 .more-information-btn {
+  margin-top: 1em;
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
 }
