@@ -160,9 +160,7 @@ h3 {
 
 .all-content {
   display: flex;
-  /*flex-wrap: wrap;*/
   justify-content: space-evenly;
-  /* margin-left: 10%; */
   gap: 1em;
 }
 
@@ -170,10 +168,6 @@ h3 {
   margin-left: 9.5vw;
   margin-right: 9.5vw;
 }
-
-/* .left-content img {
-  margin-left: 9.5vw;
-} */
 
 .right-content {
   padding-top: 10em;
@@ -197,6 +191,23 @@ h3 {
 .more-information-btn a:hover {
   text-decoration: underline;
   color: goldenrod;
+}
+
+/* Innehållet i news.html men tvärt om  */
+
+.all-content-reverse {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.all-content-reverse {
+  margin-left: 9.5vw;
+  margin-right: 9.5vw;
+}
+
+.left-content-reverse {
+  padding-top: 10em;
 }
 
 .menu-btn {
@@ -295,6 +306,28 @@ footer h2 {
   }
 
   .right-content p {
+    max-width: 100%;
+  }
+
+  .right-content-reverse img {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .all-content-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+  }
+
+  .left-content-reverse p {
+    max-width: 100%;
+  }
+
+  .left-content-reverse {
+    padding-top: 0px;
     max-width: 100%;
   }
 
