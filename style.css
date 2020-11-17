@@ -264,6 +264,13 @@ h3 {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
+/*  support.html  */
+
+.fa-comment-alt {
+  border: solid 2px green;
+  color: #e5bc7e;
+}
+
 /*  Footer  */
 
 footer {
