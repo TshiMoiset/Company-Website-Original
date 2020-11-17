@@ -14,7 +14,6 @@
   color: #e5bc7e;
   padding: 8px 16px;
   margin: 16px;
-  /*  padding: 16px;  */
   font-size: 16px;
   border: none;
   font-family: "Julius Sans One", sans-serif;
@@ -101,22 +100,21 @@
 .btn button {
   margin: 10px;
   padding: 10px;
-
   width: 100%;
   background: white;
   cursor: pointer;
   transition: 0.5s;
-
   text-align: left;
   font-family: "Julius Sans One", sans-serif;
 }
 
 .btn button:hover {
+  border: solid 2px #e5bc7e;
   background: black;
   color: #e5bc7e;
 }
 
-/* Slut */
+/* Slutet av knappar */
 
 body {
   overflow-x: hidden;
