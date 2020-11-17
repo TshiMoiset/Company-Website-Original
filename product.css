@@ -240,6 +240,10 @@ footer h2 {
     overflow-x: hidden;
   }
 
+  header {
+    width: 90vw;
+  }
+
   .main-content {
     margin: 10px;
     margin-left: 10px;
@@ -251,7 +255,11 @@ footer h2 {
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
+    max-width: 90vw;
+  }
+
+  .btn button {
+    max-width: 80vw;
   }
 
   footer {
