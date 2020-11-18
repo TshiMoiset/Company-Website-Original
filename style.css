@@ -277,6 +277,10 @@ h3 {
   margin-right: 9.5vw;
 }
 
+.all-content-support div p {
+  font-size: 13px;
+}
+
 .left-content-support {
   padding-top: 1em;
 }
@@ -503,7 +507,7 @@ footer h2 {
   }
 
   .all-content-support div p {
-    font-size: 16px;
+    font-size: 25px;
   }
 
   .all-content-support a {
