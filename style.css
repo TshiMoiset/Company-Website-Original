@@ -309,30 +309,60 @@ h6 {
 }
 
 .left-content-support a {
-  margin-left: 40px;
+  margin-left: 5em;
   text-align: right;
-  text-decoration: none;
   color: black;
   font-family: "Julius Sans One", sans-serif;
   font-size: 0.8em;
 }
 
 .left-content-support a:hover {
-  text-decoration: underline;
+  color: #e5bc7e;
 }
 
-.email-btn-support button {
-  padding: 5px;
-  margin-top: 1.5em;
-  width: 15vw;
-  color: #e5bc7e;
+.text {
+  font-size: 13px;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.phone {
+  margin-top: 30px;
+}
+
+.fa-comments {
+  list-style: none;
+  font-size: 2em;
+  color: black;
+  border-radius: 50%;
+}
+
+.fa-phone-alt {
+  list-style: none;
+  font-size: 2em;
+  color: black;
+  border-radius: 50%;
+}
+
+.fa-at {
+  padding-top: 1em;
+  list-style: none;
+  font-size: 2em;
+  color: black;
+  border-radius: 50%;
+}
+
+.email button {
+  padding: 2px;
+  width: 13vw;
+
   background: black;
+  color: #e5bc7e;
   border: solid 2px #e5bc7e;
   border-style: outset;
   font-family: "Julius Sans One", sans-serif;
 }
 
-.email-btn-support button:hover {
+.email button:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -469,12 +499,20 @@ footer h2 {
     display: flex;
     flex-wrap: wrap-reverse;
     text-align: center;
+    text-align: left;
   }
 
-  .left-content-support {
-    padding-top: 0;
-    max-width: 100%;
-    margin-right: 60px;
+  .all-content-support div p {
+    font-size: 16px;
+  }
+
+  .all-content-support a {
+    margin-left: 7.5em;
+    font-size: 15px;
+  }
+
+  .text {
+    font-size: 19px;
   }
 
   .right-content-support img {
@@ -482,6 +520,11 @@ footer h2 {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+  }
+
+  .email button {
+    padding: 2px;
+    width: 50vw;
   }
 
   /*  Footer */
