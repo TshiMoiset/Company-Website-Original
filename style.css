@@ -76,6 +76,19 @@ nav a:hover {
   color: goldenrod;
 }
 
+/*  Menyn för news- about- support- & member.html */
+
+.menu2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8px;
+  margin: 16px;
+  background: black;
+  text-align: center;
+  margin-left: 9.5vw;
+  margin-right: 9.5vw;
+}
+
 /*Produkt Index.html*/
 
 .product {
