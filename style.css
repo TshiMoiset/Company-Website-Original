@@ -30,11 +30,11 @@ main {
 * {
   margin: 0;
   padding: 0;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 h1 {
   padding-top: 20px;
-  font-family: "Julius Sans One", sans-serif;
   text-align: center;
 }
 
@@ -62,7 +62,6 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  font-family: "Julius Sans One", sans-serif;
   background-color: black;
   border-top: solid 1px white;
 }
@@ -77,21 +76,9 @@ nav a:hover {
 }
 
 /*  Menyn för news- about- support- & member.html */
-.menu2 {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 8px;
-  margin: 16px;
-  background: black;
-  text-align: center;
-  margin-left: 9.5vw;
-  margin-right: 9.5vw;
-}
 
-/* Style the links inside the sidenav */
 .menu-btn a span {
   float: right;
-  text-align: center;
   color: #e5bc7e;
 }
 
@@ -104,13 +91,10 @@ nav a:hover {
   width: 100px;
   font-size: 20px;
   border-radius: 0 5px 5px 0;
+  font-family: serif;
 }
 
 #Menu-Btn a:hover {
-  left: 0;
-}
-
-#Menu-Btn a:active {
   left: 0;
 }
 
@@ -126,6 +110,7 @@ nav a:hover {
   color: #e5bc7e;
   background: black;
   text-decoration: none;
+  font-family: none;
 }
 
 #about {
@@ -153,7 +138,6 @@ nav a:hover {
 
 .product {
   padding: 2em;
-  font-family: "Julius Sans One", sans-serif;
   text-align: center;
 }
 
@@ -166,7 +150,6 @@ nav a:hover {
 
 .product1Readmore {
   text-align: center;
-  font-family: "Julius Sans One", sans-serif;
 }
 
 .product1Readmore a {
@@ -201,7 +184,6 @@ hr.solid-content {
   text-align: center;
   border-bottom: solid 2px black;
   width: 80vw;
-  font-family: "Julius Sans One", sans-serif;
   margin-bottom: 2em;
 }
 
@@ -225,7 +207,6 @@ p {
 
 h3 {
   text-align: center;
-  font-family: "Julius Sans One", sans-serif;
 }
 
 .all-content {
@@ -246,7 +227,6 @@ h3 {
 .more-information-btn {
   margin-top: 1em;
   text-align: center;
-  font-family: "Julius Sans One", sans-serif;
 }
 
 .more-information-btn a {
@@ -308,7 +288,6 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 1em;
-  font-family: "Julius Sans One", sans-serif;
 }
 
 .btn-about a {
@@ -365,7 +344,6 @@ h6 {
 
   border-radius: 4px;
   border: solid 1px #e5bc7e;
-  font-family: "Julius Sans One", sans-serif;
 }
 
 .left-content-support p {
@@ -375,14 +353,11 @@ h6 {
 
   border: solid 1px #e5bc7e;
   border-radius: 4px;
-  font-family: "Julius Sans One", sans-serif;
 }
 
 .left-content-support a {
-  margin-left: 5em;
-  text-align: right;
+  margin-left: 7em;
   color: black;
-  font-family: "Julius Sans One", sans-serif;
   font-size: 0.8em;
 }
 
@@ -392,7 +367,6 @@ h6 {
 
 .text {
   font-size: 13px;
-  font-family: "Julius Sans One", sans-serif;
 }
 
 .phone {
@@ -428,7 +402,6 @@ h6 {
   color: #e5bc7e;
   border: solid 2px #e5bc7e;
   border-style: outset;
-  font-family: "Julius Sans One", sans-serif;
 }
 
 .email button:hover {
@@ -457,7 +430,6 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-family: "Julius Sans One", sans-serif;
   font-size: 13px;
 }
 
@@ -493,10 +465,6 @@ h6 {
   color: #e5bc7e;
 }
 
-label {
-  font-family: "Julius Sans One", sans-serif;
-}
-
 /*  Footer  */
 
 footer {
@@ -510,7 +478,6 @@ footer a {
   padding: 10px;
   margin: 2px;
   text-decoration: none;
-  font-family: "Julius Sans One", sans-serif;
   color: #e5bc7e;
 }
 
@@ -521,7 +488,6 @@ footer a:hover {
 
 footer h2 {
   color: #e5bc7e;
-  font-family: "Julius Sans One", sans-serif;
 }
 
 .main-content {
