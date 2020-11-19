@@ -371,6 +371,67 @@ h6 {
   cursor: pointer;
 }
 
+/*  Member.html */
+
+.all-content-member {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.all-content-member {
+  margin-left: 9.5vw;
+  margin-right: 9.5vw;
+}
+
+.left-content-member {
+  padding-top: 1em;
+}
+
+.supportlinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 13px;
+}
+
+.supportlinks a {
+  color: #c49358;
+}
+
+.login {
+  padding: 20px;
+  padding-top: 4em;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  display: block;
+  border-radius: 5px;
+  padding: 5px 5px;
+  width: 20vw;
+  transition: 0.25s;
+  color: #e5bc7e;
+  background: black;
+  outline: none;
+}
+
+.login input[type="submit"] {
+  display: block;
+  padding: 5px 50px;
+  margin: 20px auto;
+  outline: none;
+  transition: 0.25s;
+  cursor: pointer;
+  background: black;
+  color: #e5bc7e;
+}
+
+label {
+  font-family: "Julius Sans One", sans-serif;
+}
+
 /*  Footer  */
 
 footer {
@@ -529,6 +590,35 @@ footer h2 {
   .email button {
     padding: 2px;
     width: 50vw;
+  }
+
+  /*  Member.html */
+
+  .all-content-member {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    text-align: left;
+  }
+
+  .right-content-member img {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .login {
+    padding: 20px;
+    padding-top: 0;
+  }
+
+  .login input[type="text"],
+  .login input[type="password"] {
+    display: block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 65vw;
   }
 
   /*  Footer */
