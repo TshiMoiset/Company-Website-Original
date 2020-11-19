@@ -546,11 +546,13 @@ footer h2 {
   .all-content {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    margin-left: 14vw;
+    margin-right: 14vw;
   }
 
   .right-content p {
     max-width: 100%;
+    text-align: center;
   }
 
   .right-content-reverse img {
@@ -563,11 +565,11 @@ footer h2 {
   .all-content-reverse {
     display: flex;
     flex-wrap: wrap-reverse;
-    text-align: center;
   }
 
   .left-content-reverse p {
     max-width: 100%;
+    text-align: center;
   }
 
   .left-content-reverse {
