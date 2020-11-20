@@ -126,6 +126,10 @@ p {
   gap: 1em;
 }
 
+.right-side img {
+  margin: 14px;
+}
+
 /*  footer  */
 
 footer {
