@@ -410,7 +410,7 @@ h6 {
   padding-top: 4em;
 }
 
-.login input[type="text"],
+.login input[type="email"],
 .login input[type="password"] {
   display: block;
   border-radius: 5px;
@@ -457,8 +457,9 @@ h6 {
   padding-bottom: 5px;
 }
 
-.create-account input[type="text"],
-.create-account input[type="password"] {
+.create-account input[type="email"],
+.create-account input[type="password"],
+.create-account input[type="text"] {
   border-radius: 5px;
   padding: 5px 5px;
   width: 20vw;
@@ -735,7 +736,7 @@ footer h2 {
     padding-top: 0;
   }
 
-  .login input[type="text"],
+  .login input[type="email"],
   .login input[type="password"] {
     display: block;
     border-radius: 5px;
@@ -766,8 +767,9 @@ footer h2 {
     margin-right: 14vw;
   }
 
-  .create-account input[type="text"],
-  .create-account input[type="password"] {
+  .create-account input[type="email"],
+  .create-account input[type="password"],
+  .create-account input[type="text"] {
     display: block;
     border-radius: 5px;
     padding: 5px 5px;
@@ -790,6 +792,17 @@ footer h2 {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+  }
+
+  /*  Passwordreset.html  */
+  .resetpassword input[type="email"] {
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 65vw;
+  }
+
+  .resetpassword h3 {
+    padding-top: 0;
   }
 
   /*  socialmedia.html  */
