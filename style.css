@@ -22,7 +22,7 @@ h2 {
   align-items: center;
   text-align: center;
   background-size: cover;
-  background-color: black;
+  background: black;
 }
 
 .logoimage img {
@@ -36,7 +36,7 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: black;
+  background: black;
   border-top: solid 1px white;
 }
 
@@ -133,7 +133,7 @@ nav a:hover {
 .btn {
   padding: 3px;
   border-style: outset;
-  background-color: black;
+  background: black;
   border-radius: 15px;
 }
 
@@ -436,6 +436,11 @@ h6 {
   cursor: pointer;
   background: black;
   color: #e5bc7e;
+  border: solid 2px #e5bc7e;
+}
+
+.login input[type="submit"]:hover {
+  background: #141515;
 }
 
 /*  Footer  */

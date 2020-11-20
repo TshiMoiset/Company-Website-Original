@@ -189,11 +189,6 @@ footer h2 {
   top: -10px;
 }
 
-.copyright {
-  background: black;
-  color: #e5bc7e;
-}
-
 @media screen and (max-width: 900px) {
   body {
     overflow-x: hidden;
