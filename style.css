@@ -662,6 +662,7 @@ footer h2 {
     border-radius: 5px;
     padding: 5px 5px;
     width: 65vw;
+    font-family: none;
   }
 
   #mySidenav a {
