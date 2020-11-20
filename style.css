@@ -108,7 +108,7 @@ nav a:hover {
   text-decoration: none;
 }
 
-/*Produkt Index.html*/
+/*  Produkter i filen Index.html  */
 
 .product {
   padding: 2em;
@@ -141,6 +141,8 @@ hr.solid {
   border-top: solid 1px black;
   margin-top: 12px;
 }
+
+/*  hr för alla flier förutom index.html */
 
 hr.solid-content {
   margin-left: 9.5vw;
