@@ -266,6 +266,7 @@ p {
   text-decoration: none;
   border-style: outset;
   border-radius: 10px;
+  border: solid 2px #e5bc7e;
 }
 
 .btn-about a:hover {
@@ -527,6 +528,28 @@ h6 {
   border: solid 2px #e5bc7e;
 }
 
+/*  Socialmedia.html  */
+
+.left-content-social a {
+  display: block;
+  margin: 45px;
+  padding: 6px;
+  background: black;
+  color: #e5bc7e;
+  text-decoration: none;
+  border-style: outset;
+  border-radius: 10px;
+  border: solid 2px #e5bc7e;
+}
+
+.all-content-social {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5em;
+  margin-left: 9.5vw;
+  margin-right: 9.5vw;
+}
+
 /*  Footer  */
 
 footer {
@@ -767,6 +790,27 @@ footer h2 {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+  }
+
+  /*  socialmedia.html  */
+
+  .all-content-social {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    margin-left: 14vw;
+    margin-right: 14vw;
+  }
+
+  .right-content-social img {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .left-content-social a {
+    margin-top: 0;
   }
 
   /*  Footer */
