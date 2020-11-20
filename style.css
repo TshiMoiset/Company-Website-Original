@@ -689,3 +689,74 @@ footer h2 {
     margin: 5px 0;
   }
 }
+
+@media screen and (max-width: 330px) {
+  /*  Index.html  */
+  .logomenu {
+    font-size: 14px;
+  }
+
+  /*  News.html*/
+
+  .all-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16vw;
+    margin-right: 16vw;
+  }
+
+  .all-content-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-left: 16vw;
+    margin-right: 16vw;
+  }
+
+  /*  Aboutus.html  */
+
+  .all-content-about {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1em;
+    margin-left: 16vw;
+    margin-right: 16vw;
+  }
+
+  /*  Support.html  */
+
+  .all-content-support {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: left;
+    margin-left: 16vw;
+    margin-right: 16vw;
+  }
+
+  .all-content-support div p {
+    font-size: 12px;
+  }
+
+  .all-content-support div a {
+    margin-left: 4em;
+    font-size: 15px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  /*  Member.html */
+
+  .all-content-member {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: left;
+    margin-left: 16vw;
+    margin-right: 16vw;
+  }
+
+  .login {
+    padding: 20px;
+    padding-top: 0;
+  }
+}
