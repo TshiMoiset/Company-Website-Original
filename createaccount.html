@@ -31,23 +31,35 @@
             <!--    Innehåll på sidan   -->
 
     <main>
-        <div class="all-content-member">
-            <div class="left-content-member">
+        <div class="all-content-account">
+            <div class="left-content-account">
+                <img src="Images/VisioEntertainment3.jpg" alt="Visio Entertainment" width="499">
+            </div>
+            
+            <div class="right-content-account">
+                <form action="index.html" class="create-account">
+                    <h3>Create An Account</h3>
+                    <label for="emember">E-Mail</label><br>
+                    <input type="text" id="emember" name="emember" placeholder="Ex.visio-entertainment@hotmail.com" required><br>
+                    
+                    <label for="pmember">Password</label><br>
+                    <input type="password" id="pmember" name="pmember" placeholder="Ex.visio-entertainment" required><br>
+                  
+                    <label for="pmember">Confirm Password</label><br>
+                    <input type="password" id="confirm" name="confirm" placeholder="Ex.visio-entertainment" required><br>
            
-                <form action="index.html" class="login">
-                    <h3>Log In</h3>
-                    <label for="emember" class="label1">E-Mail</label><br>
-                    <input type="text" id="emember" name="emember" placeholder="Ex.bartsimpson@hotmail.com" required><br>
-                    <label for="pmember" class="label1">Password</label><br>
-                    <input type="password" id="pmember" name="pmember" placeholder="Ex.eatmyshorts" required><br>
-           
+                    <label for="pmember">First Name</label><br>
+                    <input type="text" id="firstname" name="firstname" placeholder="Ex.Philip" required><br>
+
+                    <label for="pmember">Last Name</label><br>
+                    <input type="text" id="lastname" name="lastname" placeholder="Ex.Rod" required><br>
+
+                    <label for="Date Of Birth">Date Of Birth </label><br>
+                    <input type="date"  name="date" required><br>
+                  
                     <input type="submit" value="Become A Member">
                 </form>
                 
-            </div>
-            
-            <div class="right-content-member">
-                <img src="Images/VisioEntertainment3.jpg" alt="Visio Entertainment" width="499">
             </div> 
     
         </div>

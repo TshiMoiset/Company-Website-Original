@@ -445,6 +445,58 @@ h6 {
   background: #1c1d1d;
 }
 
+/* createaccount.html */
+
+.all-content-account {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.all-content-account {
+  margin-left: 9.5vw;
+  margin-right: 9.5vw;
+}
+
+.create-account input[type="text"],
+.create-account input[type="password"] {
+  border-radius: 5px;
+  padding: 5px 5px;
+  width: 20vw;
+  transition: 0.25s;
+  background: black;
+  color: #e5bc7e;
+  outline: none;
+  font-family: none;
+  border: solid 2px #e5bc7e;
+}
+
+.create-account input[type="date"] {
+  padding: 5px 5px;
+  width: 20vw;
+  transition: 0.25s;
+  color: #e5bc7e;
+  border: solid 2px #e5bc7e;
+  border-radius: 5px;
+  background: #1d1d1d;
+}
+
+.create-account input[type="submit"] {
+  display: block;
+  padding: 5px 50px;
+  margin: 20px auto;
+  outline: none;
+  transition: 0.25s;
+  cursor: pointer;
+  background: black;
+  color: #e5bc7e;
+  border: solid 2px #e5bc7e;
+}
+
+.create-account input[type="submit"]:hover {
+  background: #1c1d1d;
+}
+
 /*  Footer  */
 
 footer {
@@ -657,6 +709,42 @@ footer h2 {
 
   #mySidenav {
     left: -400px;
+  }
+
+  /*  createaccount.html  */
+
+  .all-content-account {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 14vw;
+    margin-right: 14vw;
+  }
+
+  .right-content-account h3 {
+    padding-bottom: 200em;
+  }
+
+  .create-account input[type="text"],
+  .create-account input[type="password"] {
+    display: block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 65vw;
+  }
+
+  .create-account input[type="date"] {
+    display: block;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 65vw;
+  }
+
+  .left-content-account img {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
   }
 
   /*  Footer */
