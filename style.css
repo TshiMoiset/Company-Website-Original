@@ -458,6 +458,10 @@ h6 {
   margin-right: 9.5vw;
 }
 
+.right-content-account h3 {
+  padding-bottom: 5px;
+}
+
 .create-account input[type="text"],
 .create-account input[type="password"] {
   border-radius: 5px;
@@ -478,13 +482,14 @@ h6 {
   color: #e5bc7e;
   border: solid 2px #e5bc7e;
   border-radius: 5px;
-  background: #1d1d1d;
+  background: #252525;
 }
 
 .create-account input[type="submit"] {
   display: block;
-  padding: 5px 50px;
+  padding: 5px 5px;
   margin: 20px auto;
+  width: 100%;
   outline: none;
   transition: 0.25s;
   cursor: pointer;
@@ -721,10 +726,6 @@ footer h2 {
     margin-right: 14vw;
   }
 
-  .right-content-account h3 {
-    padding-bottom: 200em;
-  }
-
   .create-account input[type="text"],
   .create-account input[type="password"] {
     display: block;
@@ -738,6 +739,10 @@ footer h2 {
     border-radius: 5px;
     padding: 5px 5px;
     width: 65vw;
+  }
+
+  .create-account input[type="submit"] {
+    width: 100%;
   }
 
   .left-content-account img {
