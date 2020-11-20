@@ -643,14 +643,6 @@ footer h2 {
 
   /*  Aboutus.html  */
 
-  .all-content-about {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    gap: 1em;
-    margin-left: 14vw;
-    margin-right: 14vw;
-  }
-
   .right-content-about img {
     margin: 10px;
     margin-left: auto;
@@ -811,16 +803,6 @@ footer h2 {
   .all-content-reverse {
     display: flex;
     flex-wrap: wrap-reverse;
-    margin-left: 16vw;
-    margin-right: 16vw;
-  }
-
-  /*  Aboutus.html  */
-
-  .all-content-about {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    gap: 1em;
     margin-left: 16vw;
     margin-right: 16vw;
   }
