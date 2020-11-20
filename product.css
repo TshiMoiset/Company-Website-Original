@@ -8,6 +8,32 @@
   font-family: "Julius Sans One", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+header {
+  margin: auto;
+  text-align: center;
+  border-bottom: solid 2px black;
+  width: 80vw;
+}
+
+h2 {
+  padding: 10px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  background: black;
+  color: #e5bc7e;
+}
+
+p {
+  margin: 10px;
+  padding: 2px;
+  border: solid 1px;
+  font-family: "Syne", sans-serif;
+}
+
 /*  Menyn */
 
 .menu-btn {
@@ -91,31 +117,7 @@
   color: #e5bc7e;
 }
 
-body {
-  overflow-x: hidden;
-}
-
-header {
-  margin: auto;
-  text-align: center;
-  border-bottom: solid 2px black;
-  width: 80vw;
-}
-
-h2 {
-  padding: 10px;
-  margin-top: 19px;
-  margin-bottom: 19px;
-  background: black;
-  color: #e5bc7e;
-}
-
-p {
-  margin: 10px;
-  padding: 2px;
-  border: solid 1px;
-  font-family: "Syne", sans-serif;
-}
+/*  Innehållet på sidan */
 
 .main-content {
   display: flex;
