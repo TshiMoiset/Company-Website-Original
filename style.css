@@ -529,6 +529,13 @@ footer h2 {
 @media screen and (max-width: 900px) {
   /*  News.html*/
 
+  .all-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14vw;
+    margin-right: 14vw;
+  }
+
   .left-content img {
     margin: 10px;
     margin-left: auto;
@@ -539,13 +546,6 @@ footer h2 {
   .right-content {
     padding-top: 0px;
     max-width: 100%;
-  }
-
-  .all-content {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 14vw;
-    margin-right: 14vw;
   }
 
   .right-content p {
@@ -563,6 +563,8 @@ footer h2 {
   .all-content-reverse {
     display: flex;
     flex-wrap: wrap-reverse;
+    margin-left: 14vw;
+    margin-right: 14vw;
   }
 
   .left-content-reverse p {
