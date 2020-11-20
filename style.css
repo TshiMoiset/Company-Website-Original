@@ -424,6 +424,7 @@ h6 {
   color: #e5bc7e;
   background: black;
   outline: none;
+  font-family: none;
 }
 
 .login input[type="submit"] {
