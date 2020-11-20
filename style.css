@@ -503,6 +503,37 @@ h6 {
   background: #1c1d1d;
 }
 
+/*  paswordreset.html */
+
+.resetpassword h3 {
+  padding-top: 6em;
+}
+
+.resetpassword input[type="email"] {
+  border-radius: 5px;
+  padding: 5px 5px;
+  width: 20vw;
+  transition: 0.25s;
+  background: black;
+  color: #e5bc7e;
+  outline: none;
+  font-family: none;
+  border: solid 2px #e5bc7e;
+}
+
+.resetpassword input[type="submit"] {
+  display: block;
+  padding: 5px 5px;
+  margin: 20px auto;
+  width: 100%;
+  outline: none;
+  transition: 0.25s;
+  cursor: pointer;
+  background: black;
+  color: #e5bc7e;
+  border: solid 2px #e5bc7e;
+}
+
 /*  Footer  */
 
 footer {
