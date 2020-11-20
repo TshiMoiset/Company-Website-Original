@@ -8,6 +8,30 @@
   font-family: "Julius Sans One", sans-serif;
 }
 
+/*  Menyn */
+
+.menu-btn {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8px 16px;
+  background: black;
+  margin: 16px;
+}
+
+.menu-btn {
+  margin-left: 9.5vw;
+  margin-right: 9.5vw;
+}
+
+.menu-btn a {
+  color: #e5bc7e;
+  text-decoration: none;
+}
+
+.menu-btn a:hover {
+  color: goldenrod;
+}
+
 /*  Knappen för mer information   */
 
 #model {
@@ -100,15 +124,6 @@ p {
   gap: 1em;
 }
 
-.menu-btn {
-  padding: 8px 16px;
-  margin: 16px;
-  background-color: blueviolet;
-  border-radius: 16px;
-  border: none;
-  color: white;
-}
-
 /*  footer  */
 
 footer {
@@ -188,11 +203,16 @@ footer h2 {
     width: 90vw;
   }
 
-  .main-content {
-    margin: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    max-width: 100%;
+  /*  meny button */
+
+  .menu-btn {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu-btn {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
   .right-side img {
@@ -200,10 +220,6 @@ footer h2 {
     margin-left: auto;
     margin-right: auto;
     max-width: 90vw;
-  }
-
-  .btn button {
-    max-width: 80vw;
   }
 
   footer {
